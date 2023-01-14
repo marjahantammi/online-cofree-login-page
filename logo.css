@@ -1,0 +1,134 @@
+    html,body{
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        font-family: sans-serif;
+        font-size: 20pt;
+        
+    }
+
+    body{
+        background:url("yammi.jpg");
+        /*background: url("index.jpg");*/
+        background-size: cover;
+    }
+
+    .mainbody{
+    width: 289px;
+    padding: 15px 50px;
+    background:#028fbc;
+    margin: 0 auto;
+    position: relative;
+    top: 420px;
+    left: 315px;
+    transform: translateY(-70%);
+    border-radius: 3px;
+    }
+
+    
+
+    .logo{
+
+        width: auto;
+        height: 40%;
+        position: absolute;
+        top: -86px;
+        text-align: center;
+        right: 20%;
+    }
+    .logo img{
+    
+        height: 87%;
+        
+    }
+    
+    
+    h3{
+
+    text-align: center;
+    font-size: 30pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 2%;
+
+    }
+
+    .from-group{
+    width: auto;
+    margin-bottom: 3px;
+    }
+
+
+    .from-group .inp{
+
+    width: calc(100% - 15px);
+    padding: 7.5px 25px;
+    margin-bottom: 25px;
+    border: none;
+    border-bottom: 2px solid #CDCDCD;
+    background: none;
+    font-size: 15pt;
+    }
+
+
+
+    .from-group .rem{
+    font-size: 10pt;
+    font-size: 15pt;
+    text-align: center;
+    }
+
+    .from-group .btn-box{
+    text-align: center;
+    }
+
+    .from-group  .btn-box .lgn-btn{
+
+    padding: 10px 100px;
+    font-size: 13pt;
+    border-radius: 10rem;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+    background-color: #3a2322;
+    color:#028fbc;
+    }
+
+    
+    .from-group  .btn-box .lgn-btn:hover{
+
+        background-color: white;
+    }
+
+    .link{
+    width: auto;
+    /*background: deeppink;*/
+    text-align: center;
+    margin-bottom: 0px;
+    color: black;
+    font-size: 20px;
+
+    }
+
+    .link a{
+    color: black;
+    }
+
+    /*----------media-----*/
+
+    @media (max-width:767px){
+
+        .mainbody{
+            width: 350%;
+            margin-left: 15px;
+            margin-right: 15px;
+           /* padding: 15px 50px;
+            background:#028fbc;
+            margin: 0 auto;
+            position: relative;
+            top: 60%;
+            left: 24%;
+            transform: translateY(-70%);
+            border-radius: 3px;*/
+            }
+     }
+
